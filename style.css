@@ -33,6 +33,13 @@
   border-radius: 10px;
 }
 
+.header {
+  height: 698px;
+  background-image: url("Assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 /* styling navbar */
 
 .navbar {
@@ -42,5 +49,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: red;
+}
+/* banner styling */
+.banner {
+  text-align: center;
+  margin: 150px;
+}
+
+.banner_title {
+  font-size: 65px;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 37px;
 }
