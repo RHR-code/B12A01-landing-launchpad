@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  background: #f5f8ff;
+}
 /* fonts */
 .raleway_font {
   font-family: "Raleway", sans-serif;
@@ -182,4 +184,53 @@
 }
 .get_started img {
   border-radius: 48px;
+}
+
+/* get in touch section */
+.getin_touch {
+  /* background: #f5f8ff; */
+  padding: 71px 0;
+  display: flex;
+  gap: 115px;
+}
+.getin_touch h1 {
+  font-family: "Raleway", sans-serif;
+  width: 50%;
+  font-size: 87px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.getin_touch form {
+  display: flex;
+  width: 50%;
+  font-family: "Inter", sans-serif;
+  flex-direction: column;
+}
+.getin_touch label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.getin_touch input[type="email"],
+input[type="text"] {
+  width: 80%;
+  padding: 20px 32px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.getin_touch textarea {
+  width: 80%;
+  padding: 20px 32px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 0 20px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.getin_touch input[type="submit"] {
+  width: 92%;
 }
