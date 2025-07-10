@@ -33,8 +33,12 @@ body {
   padding: 12px 36px;
   border: none;
   border-radius: 10px;
+  transition: 1s ease;
 }
-
+.primary_btn:hover {
+  background-color: yellow;
+  color: #252432;
+}
 .header {
   height: 698px;
   background-image: url("Assets/Hero-bg.png");
