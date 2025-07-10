@@ -62,3 +62,34 @@
   color: #252432;
   margin-bottom: 37px;
 }
+
+/* main styling  */
+.main section {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 116px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 328px; */
+  /* background: red; */
+}
+.action_title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+}
+.action_description {
+  font-size: 24px;
+  font-weight: 400;
+  color: #252432;
+  opacity: 50%;
+  margin: 23px 0;
+}
+
+.action img {
+  border-radius: 48px;
+}
