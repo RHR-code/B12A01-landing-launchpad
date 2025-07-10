@@ -76,8 +76,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* height: 328px; */
-  /* background: red; */
 }
 .action_title {
   font-size: 42px;
@@ -186,9 +184,8 @@ body {
   border-radius: 48px;
 }
 
-/* get in touch section */
+/* get in touch section styling*/
 .getin_touch {
-  /* background: #f5f8ff; */
   padding: 71px 0;
   display: flex;
   gap: 115px;
@@ -233,4 +230,34 @@ input[type="text"] {
 }
 .getin_touch input[type="submit"] {
   width: 92%;
+}
+
+/* footer section styling */
+footer {
+  text-align: center;
+  padding: 104px 0;
+  background: white;
+}
+footer h1 {
+  font-size: 100px;
+  font-weight: 700;
+}
+footer p {
+  margin: 20px 0;
+  color: #000000;
+  opacity: 50%;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #000000;
+  opacity: 50%;
 }
