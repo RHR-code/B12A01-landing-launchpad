@@ -56,6 +56,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.nav_logo {
+  font-size: 34px;
+  font-weight: 900;
+}
 /* banner styling */
 .banner {
   text-align: center;
@@ -244,7 +248,7 @@ footer {
 }
 footer h1 {
   font-size: 100px;
-  font-weight: 700;
+  font-weight: 900;
 }
 footer p {
   margin: 20px 0;
